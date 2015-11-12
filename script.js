@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 		var $container = $('<div />').appendTo($('body'));
 
-		var $title = $('<a />').html('<h1>'+post.data.title+'</h1>').appendTo($container);
+		var $title = $('<a />').html('<h2>'+post.data.title+'</h2>').appendTo($container);
 			$title.attr('href', post.data.url);
 
 			$('<img />').attr('src', post.data.thumbnail).appendTo($container);
